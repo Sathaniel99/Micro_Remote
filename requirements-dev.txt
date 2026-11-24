@@ -1,0 +1,8 @@
+# Dependencias de desarrollo y empaquetado
+-r requirements.txt
+
+# Generación de iconos .ico (micro_remote/tools/icons.py)
+Pillow>=10.0
+
+# Ejecutables de Windows (emisor.spec / receptor.spec)
+pyinstaller>=6.0
